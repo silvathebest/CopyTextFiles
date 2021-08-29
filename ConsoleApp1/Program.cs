@@ -7,7 +7,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            var dirPath = "D://works";
+            var dirPath = "D://TP-Course/AutoCenterKoryto";
             //Создаем файл
             StreamWriter f = new StreamWriter(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/textFile.txt", true);
             //Указываем нужные нам расширения
